@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 30px;
+  
+}
+.slogan_nome{
+  font-size: 25px;
+  display: flex;
+ align-items: center;
+ font-family: 'Heebo', sans-serif;
+}
+
+nav ul{
+  list-style-type: none;
+}
+.opcoes_cabecalho ul li{
+  display: inline-block;
+  gap: 30px;
+}
+.opcoes_cabecalho{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 1000px;
+  align-items: center;
+
+}
+.main-figure{
+  display: flex;
+  justify-content: flex-end;
+  background-size: 100px;
+}
+
+.fodase h1{
+  color: orange;
+}
+
+
+
+
+
+
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+/*Fonte: Heebo*/
